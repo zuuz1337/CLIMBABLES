@@ -1,6 +1,6 @@
 ---
 title: BehaviorUtil
-nav_order: 2
+parent: UtilityModules
 ---
 
 # BehaviorUtil Documentation
