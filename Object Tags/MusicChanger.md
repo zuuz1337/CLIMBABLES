@@ -1,6 +1,6 @@
 ---
 title: MusicChanger
-parent: ObjectTags
+parent: Object Tags
 ---
 
 # MusicChanger
