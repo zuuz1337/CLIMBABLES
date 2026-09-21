@@ -4,9 +4,8 @@ parent: Object Tags
 ---
 
 # MusicChanger
-Music changers allow you to change or modify your currently playing music! Your songs should be inside of the "Music" SoundGroup and be named properly. Also, these songs can have a `MusicName` string attribute, which will appear when using the `;music` chat command!
-
 {: .no_toc }
+Music changers allow you to change or modify your currently playing music! Your songs should be inside of the "Music" SoundGroup and be named properly. Also, these songs can have a `MusicName` string attribute, which will appear when using the `;music` chat command!
 
 ## On this page
 {: .no_toc .text-delta }
@@ -20,12 +19,12 @@ Music changers allow you to change or modify your currently playing music! Your 
 
 | AttributeName | Value | Default |
 |---------------|-------|---------|
-| [SoundName](#SoundName) | `string` | `"N/A"` |
-| [SyncTime](#SyncTime) | `boolean` | `false` |
-| [StopOtherSongs](#StopOtherSongs) | `boolean` | `true` |
-| [PlaybackSpeed](#PlaybackSpeed) | `number` | `1` |
-| [Volume](#Volume) | `number` | `1` |
-| [ChangeMusicTrigger](#ChangeMusicTrigger) | `bool` | `false` |
+| [SoundName](#soundname) | `string` | `"N/A"` |
+| [SyncTime](#synctime) | `boolean` | `false` |
+| [StopOtherSongs](#stopothersongs) | `boolean` | `true` |
+| [PlaybackSpeed](#playbackspeed) | `number` | `1` |
+| [Volume](#volume) | `number` | `1` |
+| [ChangeMusicTrigger](#changemusictrigger) | `bool` | `false` |
 
 ---
 
@@ -42,7 +41,7 @@ Music changers allow you to change or modify your currently playing music! Your 
 ---
 
 ## SoundName
-The name of the sound from the Music folder will the MusicChanger change to, this will become the `currentSound`. if SoundName is the same as `currentSound`, the song wont change but things like [Volume](#Volume) and [PlaybackSpeed](#PlaybackSpeed) will still be applied.
+The name of the sound from the Music folder will the MusicChanger change to, this will become the `currentSound`. if SoundName is the same as `currentSound`, the song wont change but things like [Volume](#volume) and [PlaybackSpeed](#playbackspeed) will still be applied.
 
 ---
 
