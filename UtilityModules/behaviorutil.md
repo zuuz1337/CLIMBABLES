@@ -3,7 +3,8 @@ title: BehaviorUtil
 parent: UtilityModules
 ---
 
-# BehaviorUtil Documentation
+# BehaviorUtil
+NOTE: most objects use these, so you can do the sound attributes and TriggerConfig stuff to MOST THINGS
 {: .no_toc }
 
 ## On this page
