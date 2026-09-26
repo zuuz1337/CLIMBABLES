@@ -26,6 +26,8 @@ Music changers allow you to change or modify your currently playing music! Your 
 | [Volume](#volume) | `number` | `1` |
 | [ChangeMusicTrigger](#changemusictrigger) | `bool` | `false` |
 
++setupTriggers attributes
+
 ---
 
 ## Sounds
