@@ -1,3 +1,5 @@
 title: Dreamkit Documentation
 description: Documentation for the Dreamkit used in CLIMBABLES
 remote_theme: just-the-docs/just-the-docs
+baseurl: "/CLIMBABLES"
+url: "https://zuuz1337.github.io"
