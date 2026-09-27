@@ -18,6 +18,4 @@ SoundPlayers allow you to play a sound on Trigger. It requires a folder named So
 
 ## Attributes
 
-> Inherits all attributes from [`setupTriggers`]({% link CLIMBABLES/UtilityModules/behaviorutil.md %}#setuptriggers) when a TriggerConfiguration is present: `OneTimeUse`, `Cooldown`, `Enabled`, and any custom `triggerAttrName`.
-
----
+> Inherits all attributes from [`setupTriggers`]({% link UtilityModules/behaviorutil.md %}#setuptriggers) when a TriggerConfiguration is present: `OneTimeUse`, `Cooldown`, `Enabled`, and any custom `triggerAttrName`.
