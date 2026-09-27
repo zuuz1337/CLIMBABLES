@@ -1,10 +1,15 @@
 ---
 title: MusicChanger
 parent: Object Tags
+tags: [trigger, basepart, music, sound]
 ---
 
 # MusicChanger
 {: .no_toc }
+
+<span class="label label-blue">TriggerConfigurable</span>
+<span class="label label-green">Sound</span>
+
 Music changers allow you to change or modify your currently playing music! Your songs should be inside of the "Music" SoundGroup and be named properly. Also, these songs can have a `MusicName` string attribute, which will appear when using the `;music` chat command!
 
 ## On this page
@@ -26,7 +31,7 @@ Music changers allow you to change or modify your currently playing music! Your 
 | [Volume](#volume) | `number` | `1` |
 | [ChangeMusicTrigger](#changemusictrigger) | `bool` | `false` |
 
-+setupTriggers attributes
+> Inherits all attributes from [`setupTriggers`]({% link CLIMBABLES/UtilityModules/behaviorutil.md %}#setuptriggers) when a TriggerConfiguration is present: `OneTimeUse`, `Cooldown`, `Enabled`, and any custom `triggerAttrName`.
 
 ---
 
